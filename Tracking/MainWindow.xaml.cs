@@ -893,6 +893,7 @@ namespace Tracking
             //This gives you the byte array.
             //mStream.ToArray()         
             string s = "test";
+            string gitTest = "asdfsadf"; 
         }
 
         public System.Drawing.Color[][] GetBitMapColorMatrix(string bitmapFilePath)
