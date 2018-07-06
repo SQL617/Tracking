@@ -1,0 +1,20 @@
+﻿<Window x:Class="Tracking.windows.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tracking.windows"
+        mc:Ignorable="d"
+        Title="Loading" Height="185.041" Width="582.787" Background="#FF37373F">
+    <Grid Background="#FF37373F">
+        <ProgressBar HorizontalAlignment="Left" Height="15" Margin="40,51,0,0" VerticalAlignment="Top" Width="483" Background="#FF7DBDEF" BorderBrush="#FFDDECF7" IsIndeterminate="True" Foreground="White">
+            <ProgressBar.Effect>
+                <BlurEffect Radius="3"/>
+            </ProgressBar.Effect>
+        </ProgressBar>
+        <Label x:Name="label" Content="Process Dialog" HorizontalAlignment="Left" Margin="40,7,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="% Complete" HorizontalAlignment="Left" Margin="40,25,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Cancel" HorizontalAlignment="Left" Margin="478,109,0,0" VerticalAlignment="Top" Width="77" Background="#FF565294" BorderBrush="#FF565294" Height="28" Click="button_Click" Style="{DynamicResource ButtonStyle1}"/>
+
+    </Grid>
+</Window>

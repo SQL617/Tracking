@@ -1,0 +1,21 @@
+﻿<Window x:Class="Tracking.windows.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tracking.windows"
+        mc:Ignorable="d"
+        Title="MenuWindow" Height="387.668" Width="619.303" Background="#FF303030">
+    <Grid Margin="0,0,2,2">
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="361">
+            <MenuItem Header="File">
+                <MenuItem Header="Move and Rename"/>
+                <Separator/>
+                <MenuItem Header="Copy"/>
+                <Separator/>
+                <MenuItem Header="Preview"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
